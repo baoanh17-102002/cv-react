@@ -12,11 +12,11 @@ import Service2Icon from './assets/img/services/web_design.svg';
 import Service3Icon from './assets/img/services/development.svg';
 
 // brands images
-import Brand1Image from './assets/img/brands/behance.svg';
-import Brand2Image from './assets/img/brands/google.svg';
-import Brand3Image from './assets/img/brands/dribbble.svg';
-import Brand4Image from './assets/img/brands/uplabs.svg';
-import Brand5Image from './assets/img/brands/99designs.svg';
+import Brand1Image from './assets/img/brands/html.svg';
+import Brand2Image from './assets/img/brands/javascript.svg';
+import Brand3Image from './assets/img/brands/reactjs.svg';
+import Brand4Image from './assets/img/brands/tailwind.svg';
+import Brand5Image from './assets/img/brands/google.svg';
 
 // portfolio images
 import PortfolioImage1 from './assets/img/portfolio/p1.jpg';
@@ -34,14 +34,12 @@ export const nav = [
     name: 'about',
   },
   {
-    name: 'services',
+    name: 'skills',
   },
   {
     name: 'contributors',
   },
-  {
-    name: 'portfolio',
-  },
+
   {
     name: 'contact',
   },
@@ -69,44 +67,44 @@ export const social = [
 
 // about
 export const about = {
-  title: 'About me',
+  title: 'Về Bản Thân Tôi',
   subtitle:
-    "I'm Justin Vaccaro and i do web design, Graphic Design, User Experiences. habitant et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet.",
+    "Tôi là một lập trình viên với niềm đam mê sâu sắc về việc tạo ra các ứng dụng và giải pháp công nghệ sáng tạo. Với nền tảng chính là ngôn ngữ lập trình javascript và kinh nghiệm rộng rãi trong việc làm việc với tailwindcss và boostrapcss, tôi đã tham gia vào nhiều dự án phức tạp, từ ứng dụng web đến các dịch vụ phần mềm.",
   image: '',
 };
 
 // services
 export const services = {
-  title: 'Services',
+  title: 'Kỹ Năng',
   subtitle:
-    'Our team members are experts in all facets of the design industry including: print design, illustration, branding, identity and more.',
+    'Tất cả các thành viên trong đội của chúng tôi đều là những chuyên gia hàng đầu trong lĩnh vực lập trình, đảm bảo chúng tôi có đội ngũ đa dạng với kỹ năng chuyên sâu trong các lĩnh vực như phát triển phần mềm, quản lý dự án, thiết kế giao diện người dùng, và triển khai hệ thống.',
   skills: [
     {
       icon: Service1Icon,
-      name: 'UI/UX Design',
+      name: 'Ngôn ngữ lập trình:',
       description:
-        "Why money's in that office, right If she start giving me some bullshit about it ain't there someplace or anywhere.",
+        "Lập trình viên cần có kiến thức vững về ít nhất một ngôn ngữ lập trình. Điều này bao gồm khả năng viết mã, hiểu rõ cú pháp, và có khả năng xử lý lỗi.",
     },
     {
       icon: Service2Icon,
-      name: 'Web Design',
+      name: 'Kiến thức về cấu trúc dữ liệu và thuật toán:',
       description:
-        "Why money's in that office, right If she start giving me some bullshit about it ain't there someplace or anywhere.",
+        "Lập trình viên cần hiểu về cách tổ chức và quản lý dữ liệu cũng như thuật toán để giải quyết các vấn đề hiệu quả. Điều này là quan trọng để tối ưu hóa hiệu suất của chương trình.",
     },
     {
       icon: Service3Icon,
-      name: 'WP Developing',
+      name: 'Khả năng giải quyết vấn đề:',
       description:
-        "Why money's in that office, right If she start giving me some bullshit about it ain't there someplace or anywhere.",
+        "Lập trình viên cần có khả năng phân tích vấn đề, đưa ra giải pháp và triển khai mã nguồn một cách có hiệu quả. Sự sáng tạo và khả năng làm việc nhóm cũng là những kỹ năng quan trọng trong quá trình giải quyết vấn đề lập trình.",
     },
   ],
 };
 
 // contributors
 export const contributors = {
-  title: 'Contributors',
+  title: 'Người đóng góp',
   subtitle:
-    'They support products that simplify and automate decent mechanic processes saving time for activities.',
+    'Họ hỗ trợ các sản phẩm giúp đơn giản hóa và tự động hóa các quy trình cơ khí phù hợp, tiết kiệm thời gian cho các hoạt động.',
   brands: [
     {
       image: Brand1Image,
